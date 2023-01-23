@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12) (preloaded format=xelatex 2022.7.3)  22 JAN 2023 17:53
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12) (preloaded format=xelatex 2022.7.3)  22 JAN 2023 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1110,8 +1110,7 @@ Requested font "[NotoSans-Regular.ttf]/OT:script=latn;language=dflt;+tnum;+lnum
 ;mapping=tex-text;" at 10.95pt
  -> C:/Users/Brand/AppData/Local/Programs/MiKTeX/fonts/truetype/google/noto/Not
 oSans-Regular.ttf
-
-No file resume.aux.
+ (resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -1125,6 +1124,7 @@ LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 5.
+
 (C:\Users\Brand\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1253,12 +1253,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
+ (resume.out) (resume.out)
 \@outlinefile=\write5
 \openout5 = `resume.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Font shape `TU/NotoSans(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 17.
@@ -1353,17 +1350,17 @@ mapping=tex-text;" at 10.95pt
  -> C:/Users/Brand/AppData/Local/Programs/MiKTeX/fonts/truetype/google/noto/Not
 oSans-Italic.ttf
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--43
+Underfull \hbox (badness 10000) in paragraph at lines 21--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--70
+Underfull \hbox (badness 10000) in paragraph at lines 43--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--83
+Underfull \hbox (badness 10000) in paragraph at lines 68--80
 
  []
 
@@ -1378,37 +1375,31 @@ oSerif-Regular.ttf
 Requested font "cmmi9" at 9.0pt
 Requested font "cmsy9" at 9.0pt
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 91.
+(Font)              <9> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 91.
+(Font)              <5> on input line 86.
 Requested font "cmr9" at 9.0pt
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--151
+Underfull \hbox (badness 10000) in paragraph at lines 91--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--173
+Underfull \hbox (badness 10000) in paragraph at lines 142--163
 
  []
 
 [1
 
 ] (resume.aux)
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7B3371AF929071D14E3490CE650E1C90;622.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 7B3371AF929071D14E3490CE650E1C90;622.
  ) 
 Here is how much of TeX's memory you used:
- 24776 strings out of 411044
- 498994 string characters out of 2825394
- 932093 words of memory out of 3000000
- 45047 multiletter control sequences out of 15000+600000
+ 24783 strings out of 411044
+ 499056 string characters out of 2825394
+ 933020 words of memory out of 3000000
+ 45048 multiletter control sequences out of 15000+600000
  407761 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,8n,138p,424b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
