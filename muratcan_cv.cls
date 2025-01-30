@@ -34,6 +34,7 @@
 \newcommand*{\setthemecolor}[1]{\def\@themecolor{#1}}
 \newcommand*{\setlinkedinaccount}[1]{\def\@linkedinaccount{#1}}
 \newcommand*{\setgithubaccount}[1]{\def\@githubaccount{#1}}
+\newcommand*{\setgoogleplayaccount}[1]{\def\@googleplayaccount{#1}}
 
 \hypersetup{
     colorlinks=true,
@@ -43,7 +44,7 @@
 % Header
 \newcommand\headerview{
 \hfill
-\begin{minipage}{0.55\linewidth} % extend header length here
+\begin{minipage}{0.75\linewidth} % extend header length here
     \center \name \\[0.05cm] 
     \contact % address \ mobile \\ mail
 \end{minipage}
@@ -52,6 +53,7 @@
     
 \newcommand{\githubview}{\href{\@linkedinaccount}{\faLinkedinSquare\ \footnotesize https://www.linkedin.com/in/brandon-cano/}}
 \newcommand{\linkedinview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize https://github.com/bmcano}}
+\newcommand{\googleplayview}{\href{\@googleplayaccount}{\faAndroid\ \footnotesize https://play.google.com/store/apps/developer?id=Brandon+Cano}}
 
 \newcommand{\name}{%
     {\LARGE \color{\@themecolor} \@firstname \ \textsc{\@lastname}}
@@ -61,9 +63,9 @@
         % {\small \@address  \cps \@citizenship \\ \@mobile \cps \@mail% %%OLD
         {\small \@mail \ \cpshalf \@mobile %
         \\%
-        \linkedinview 
+        \linkedinview \cpshalf \githubview
         \\%
-        \githubview \\ 
+        \googleplayview \\
         } % 
 }
 
