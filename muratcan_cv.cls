@@ -51,9 +51,9 @@
 \hfill
 }
     
-\newcommand{\githubview}{\href{\@linkedinaccount}{\faLinkedinSquare\ \footnotesize https://www.linkedin.com/in/brandon-cano/}}
-\newcommand{\linkedinview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize https://github.com/bmcano}}
-\newcommand{\googleplayview}{\href{\@googleplayaccount}{\faAndroid\ \footnotesize https://play.google.com/store/apps/developer?id=Brandon+Cano}}
+\newcommand{\linkedinview}{\href{\@linkedinaccount}{\faLinkedinSquare\ \footnotesize linkedin.com/in/brandon-cano/}}
+\newcommand{\githubview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize github.com/bmcano}}
+\newcommand{\googleplayview}{\href{\@googleplayaccount}{\faAndroid\ \footnotesize play.google.com/store/apps/developer?id=Brandon+Cano}}
 
 \newcommand{\name}{%
     {\LARGE \color{\@themecolor} \@firstname \ \textsc{\@lastname}}
